@@ -1,0 +1,106 @@
+
+/*  dau tien laf css header */
+.header{
+    height: 60px; /* kich thuoc cua header */
+    background-color:#0f5553;
+    /* background-image: linear-gradient(0,#48d1cc,#15807c);bang mau cua header( từ màu đậm xuống nhạt) */
+}
+
+.header_navbar{
+    display: flex; /* cho tat ca the con deu nam chung 1 dong  */
+    /* justify-content: space-between; chia cac the con ra xa nhau  */
+}
+.header_navbar-list{
+    list-style: none; /* mất dấu chấm */
+    padding-left: 0; /* bỏ đi phần cách lề  */
+}
+.header_navbar-item{
+    display: inline-block ; /* cho nam chung 1 dong */
+    padding: 0 8px ; /* tang khoang cach giua cac chu  */
+}
+
+.header_navbar-item,
+.header_navbar-item-logo{
+    font-size: 1.5rem; /* chinh kich thuoc chu  */
+    color: white; /* chinh chu mau trang */
+    text-decoration: none; /* bo dau gach chan  */
+    font-weight: 300; /* chỉnh độ dày của chữ  */
+    cursor: pointer;/* chuot doi thanh tro tay */
+}
+.header_navbar-icon{
+    font-size: 18px; /* tang kich thuoc cho icon  */
+    margin: 0 8px; /* chia cac icon ra xa chu */
+}
+
+/* khung tim kiem  */
+.header-with-search{
+    background-color : white;/* mau vien tim kim */
+    height: 40px; /* chiu dai cua o */
+    width:60px ; /*chiu rong cua o  */
+    border-radius: 2px ; /* chỉnh sủa độ cong của góc cạnh trong ô */
+    
+}
+/* nut cua so */
+.btn-arrow{
+    width:320px;
+    border: 1px solid #3498db;
+    background: #00a3ff;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    padding: 12px 4px ; /* tang khoang cach giua cac chu  */ 
+}
+
+ 
+
+/* btn searching */
+.btn-searching{
+    width:320px;
+    border: 1px solid #3498db;
+    background: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    padding: 12px 4px ;
+}
+/* bang ha xuong */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width:320px;
+    border: 1px solid #3498db;
+    background: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    padding: 12px 4px ;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
